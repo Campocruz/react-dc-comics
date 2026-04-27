@@ -1,6 +1,8 @@
+import AppWelcomeAzzurra from "./AppWelcomeAzzurra";
+
 export default function AppMain() {
 
   return (
-    <h2>Main</h2>
+    <AppWelcomeAzzurra name="Azzurra" />
   )
 }

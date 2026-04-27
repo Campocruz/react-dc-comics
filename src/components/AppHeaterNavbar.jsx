@@ -1,6 +1,12 @@
-export default function AppHeaterNavbar() {
+export default function AppHeaterNavbar(props) {
 
   return (
-    <nav></nav>
+    <nav className='navBar'>
+
+      {props.list.map((item, index) => {
+        return <a key={index} href="">{item}</a>
+      })}
+
+    </nav>
   )
 }
