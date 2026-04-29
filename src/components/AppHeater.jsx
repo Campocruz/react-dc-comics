@@ -1,29 +1,19 @@
 import AppHeaterNavbar from "./AppHeaterNavbar";
 import AppLogo from "./AppLogo";
-
-const list = [
-  "charaters",
-  "comics",
-  "movies",
-  "tv",
-  "games",
-  "collectibles",
-  "videos",
-  "fans",
-  "news",
-  "shop"
-];
+import heaterData from '../assets/data/appHeaderData.js'
 
 export default function AppHeater() {
 
   return (
     <>
-      <div className="row">
-        <div className="col">
-          <AppLogo />
-        </div>
-        <div className="col">
-          <AppHeaterNavbar list={list} />
+      <div className="container-flush">
+        <div className="row align-items-center bg-dark text-center">
+          <div className="col-4">
+            <AppLogo />
+          </div>
+          <div className="col-8">
+            <AppHeaterNavbar links={heaterData} />
+          </div>
         </div>
       </div>
     </>
