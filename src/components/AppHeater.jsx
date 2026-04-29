@@ -6,7 +6,6 @@ export default function AppHeater() {
 
   return (
     <>
-      <div className="container-flush">
         <div className="row align-items-center bg-dark text-center">
           <div className="col-4">
             <AppLogo />
@@ -15,7 +14,6 @@ export default function AppHeater() {
             <AppHeaterNavbar links={heaterData} />
           </div>
         </div>
-      </div>
     </>
 
   )

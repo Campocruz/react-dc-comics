@@ -10,11 +10,11 @@ export default function AppFooter() {
 
   return (
     <>
-      <div className='container-flush'>
+      <div id="iconSpace" className="row align-items-center justify-content-around bg-primary">
         <AppBannerSup iconList={iconList} />
-        <AppLinkSpace footerLink={footerLink} />
-        <AppBannerInf />
       </div>
+      <AppLinkSpace footerLink={footerLink} />
+      <AppBannerInf />
     </>
   )
 }

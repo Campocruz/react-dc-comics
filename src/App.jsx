@@ -9,9 +9,15 @@ export default function App() {
 
   return (
     <>
-      <AppHeater />
-      <AppMain />
-      <AppFooter />
+      <div id="appHeader" className="container-flush">
+        <AppHeater />
+      </div>
+      <div id="appMain" className="container">
+        <AppMain />
+      </div>
+      <div id="appFooter" className="container-flush">
+        <AppFooter />
+      </div>
     </>
   )
 }

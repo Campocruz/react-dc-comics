@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+#appHeader{
+  height: 10vh;
+}
+
+#appMain{
+  height: 50vh;
+}
+
+#appFooter{
+  height: 40vh;
+}
+
+#iconSpace{
+  height: 100px;
+}
+
 .navBar {
 
   a {
