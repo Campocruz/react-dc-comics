@@ -6,7 +6,7 @@ export default function AppLinkSpace({ title, linkList }) {
       {
         linkList.map((item, index) => {
           return (
-            <li key={index}>{item.linkList}</li>
+            <li key={index}>{item}</li>
           )
         })
       }
