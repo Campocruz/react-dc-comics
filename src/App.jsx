@@ -1,6 +1,6 @@
-import AppFooter from "./components/AppFooter";
-import AppHeater from "./components/AppHeater";
-import AppMain from "./components/AppMain";
+import AppFooter from "./components/app_component/AppFooter";
+import AppHeater from "./components/app_component/AppHeater";
+import AppMain from "./components/app_component/AppMain";
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 

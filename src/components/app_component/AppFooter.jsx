@@ -1,8 +1,8 @@
-import iconList from '../assets/data/appIconList.js'
-import linkList from '../assets/data/appLinkList.js'
-import AppBannerInf from './AppBannerInf.jsx'
-import AppBannerSup from './AppBannerSup.jsx'
-import AppLinkSpace from './AppLinkSpace.jsx'
+import iconList from '../../assets/data/appIconList.js'
+import linkList from '../../assets/data/appLinkList.js'
+import AppBannerInf from '../footer_component/AppBannerInf.jsx'
+import AppBannerSup from '../footer_component/AppBannerSup.jsx'
+import AppLinkSpace from '../footer_component/AppLinkSpace.jsx'
 
 export default function AppFooter() {
 

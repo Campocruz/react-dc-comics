@@ -1,5 +1,5 @@
-import logo from '../assets/img/dc-logo-bg.png'
-import './css/appLogo.css'
+import logo from '../../assets/img/dc-logo-bg.png'
+import '../css/appLogo.css'
 
 export default function AppLogo() {
 

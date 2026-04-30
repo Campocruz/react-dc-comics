@@ -1,4 +1,4 @@
-import AppBannerIcon from "./AppBannerIcon";
+import AppBannerIcon from "../footer_component/AppBannerIcon";
 
 export default function AppBannerSup({ iconList }) {
 
