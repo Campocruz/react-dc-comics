@@ -4,19 +4,19 @@
   box-sizing: border-box;
 }
 
-#appHeader{
+#appHeader {
   height: 10vh;
 }
 
-#appMain{
-  height: 50vh;
+#appMain {
+  min-height: 50vh;
 }
 
-#appFooter{
+#appFooter {
   height: 40vh;
 }
 
-#iconSpace{
+#iconSpace {
   height: 100px;
 }
 
@@ -27,4 +27,9 @@
     text-decoration: none;
     color: black;
   }
+}
+
+.card {
+  width: 200px;
+  min-height: 150px;
 }

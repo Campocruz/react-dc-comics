@@ -1,12 +1,13 @@
-import AppCard from "../main_component/AppCard";
 import AppWelcomeAzzurra from "../main_component/AppWelcomeAzzurra";
+import comics from '../../assets/data/comics'
+import ContainerCard from "../main_component/ContainerCard";
 
 export default function AppMain() {
 
   return (
     <div className="container">
       <AppWelcomeAzzurra name="Azzurra" />
-      <AppCard src={"null"} alt={"null"} title={"ciao"} />
+      <ContainerCard comics={comics} />
     </div>
   )
 }

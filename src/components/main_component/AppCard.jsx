@@ -1,9 +1,9 @@
-export default function AppCard({ src, alt, title }) {
+export default function AppCard({ img, title }) {
 
   return (
     <div className="card">
-      <img src={src} className="card-img-top" alt={alt} />
       <div className="card-body">
+        <img src={img} className="card-img-top" alt={title} />
         <p className="card-text">{title}</p>
       </div>
     </div>
